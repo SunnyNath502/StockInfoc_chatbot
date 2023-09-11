@@ -4,9 +4,9 @@ import MySQLdb
 app = Flask(__name__)
 
 # MySQL Configuration
-app.config['MYSQL_HOST'] = '127.0.0.1'
+app.config['MYSQL_HOST'] = '*****'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'sunny$0987'  # Use your MySQL password
+app.config['MYSQL_PASSWORD'] = '******'  
 app.config['MYSQL_DB'] = 'stock_db'
 
 mysql = MySQLdb.connect(app.config['MYSQL_HOST'], app.config['MYSQL_USER'], app.config['MYSQL_PASSWORD'], app.config['MYSQL_DB'])
